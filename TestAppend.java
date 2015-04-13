@@ -19,7 +19,7 @@ public class TestAppend {
   public static String questionHTML = "<input name=\"moderatedquestion\" type=\"hidden\" value=\"{*}\"/>";
   
   public static void main(String[] args) throws IOException {
-    for (int i = 0; i < 10; i++) {
+    for (int i = 0; i < 12; i++) {
       BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream("pages/" + filenames[i])));
       BufferedWriter bw = new BufferedWriter(new FileWriter("newjava/" + filenames[i]));
       String line = br.readLine();
