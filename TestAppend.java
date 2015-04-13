@@ -1,3 +1,12 @@
+/**
+* TestAppend
+*
+* Adds the questionHTML element before every line that contains "moderatedstudent".
+*
+* Put source files (whose filenames are in the filenames array) in "pages" folder and the
+* generated files will be in "newjava" folder.
+*/
+
 import java.io.*;
 
 public class TestAppend {
